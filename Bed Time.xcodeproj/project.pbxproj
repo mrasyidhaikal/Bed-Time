@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2DAC6BB2469045500AC3288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6BA2469045500AC3288 /* AppDelegate.swift */; };
+		A2DAC6BD2469045500AC3288 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6BC2469045500AC3288 /* SceneDelegate.swift */; };
+		A2DAC6BF2469045500AC3288 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6BE2469045500AC3288 /* ViewController.swift */; };
+		A2DAC6C22469045500AC3288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DAC6C02469045500AC3288 /* Main.storyboard */; };
+		A2DAC6C52469045500AC3288 /* Bed_Time.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6C32469045500AC3288 /* Bed_Time.xcdatamodeld */; };
+		A2DAC6C72469045800AC3288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DAC6C62469045800AC3288 /* Assets.xcassets */; };
+		A2DAC6CA2469045800AC3288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DAC6C82469045800AC3288 /* LaunchScreen.storyboard */; };
+		A2DAC6D52469045800AC3288 /* Bed_TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6D42469045800AC3288 /* Bed_TimeTests.swift */; };
+		A2DAC6E02469045800AC3288 /* Bed_TimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6DF2469045800AC3288 /* Bed_TimeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2DAC6D12469045800AC3288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2DAC6AF2469045500AC3288 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2DAC6B62469045500AC3288;
+			remoteInfo = "Bed Time";
+		};
+		A2DAC6DC2469045800AC3288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2DAC6AF2469045500AC3288 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2DAC6B62469045500AC3288;
+			remoteInfo = "Bed Time";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2DAC6B72469045500AC3288 /* Bed Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bed Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DAC6BA2469045500AC3288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2DAC6BC2469045500AC3288 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A2DAC6BE2469045500AC3288 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2DAC6C12469045500AC3288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2DAC6C42469045500AC3288 /* Bed_Time.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bed_Time.xcdatamodel; sourceTree = "<group>"; };
+		A2DAC6C62469045800AC3288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2DAC6C92469045800AC3288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2DAC6CB2469045800AC3288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DAC6D02469045800AC3288 /* Bed TimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bed TimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DAC6D42469045800AC3288 /* Bed_TimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bed_TimeTests.swift; sourceTree = "<group>"; };
+		A2DAC6D62469045800AC3288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DAC6DB2469045800AC3288 /* Bed TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bed TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DAC6DF2469045800AC3288 /* Bed_TimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bed_TimeUITests.swift; sourceTree = "<group>"; };
+		A2DAC6E12469045800AC3288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2DAC6B42469045500AC3288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DAC6CD2469045800AC3288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DAC6D82469045800AC3288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2DAC6AE2469045500AC3288 = {
+			isa = PBXGroup;
+			children = (
+				A2DAC6B92469045500AC3288 /* Bed Time */,
+				A2DAC6D32469045800AC3288 /* Bed TimeTests */,
+				A2DAC6DE2469045800AC3288 /* Bed TimeUITests */,
+				A2DAC6B82469045500AC3288 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2DAC6B82469045500AC3288 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2DAC6B72469045500AC3288 /* Bed Time.app */,
+				A2DAC6D02469045800AC3288 /* Bed TimeTests.xctest */,
+				A2DAC6DB2469045800AC3288 /* Bed TimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2DAC6B92469045500AC3288 /* Bed Time */ = {
+			isa = PBXGroup;
+			children = (
+				A2DAC6BA2469045500AC3288 /* AppDelegate.swift */,
+				A2DAC6BC2469045500AC3288 /* SceneDelegate.swift */,
+				A2DAC6BE2469045500AC3288 /* ViewController.swift */,
+				A2DAC6C02469045500AC3288 /* Main.storyboard */,
+				A2DAC6C62469045800AC3288 /* Assets.xcassets */,
+				A2DAC6C82469045800AC3288 /* LaunchScreen.storyboard */,
+				A2DAC6CB2469045800AC3288 /* Info.plist */,
+				A2DAC6C32469045500AC3288 /* Bed_Time.xcdatamodeld */,
+			);
+			path = "Bed Time";
+			sourceTree = "<group>";
+		};
+		A2DAC6D32469045800AC3288 /* Bed TimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2DAC6D42469045800AC3288 /* Bed_TimeTests.swift */,
+				A2DAC6D62469045800AC3288 /* Info.plist */,
+			);
+			path = "Bed TimeTests";
+			sourceTree = "<group>";
+		};
+		A2DAC6DE2469045800AC3288 /* Bed TimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2DAC6DF2469045800AC3288 /* Bed_TimeUITests.swift */,
+				A2DAC6E12469045800AC3288 /* Info.plist */,
+			);
+			path = "Bed TimeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2DAC6B62469045500AC3288 /* Bed Time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DAC6E42469045800AC3288 /* Build configuration list for PBXNativeTarget "Bed Time" */;
+			buildPhases = (
+				A2DAC6B32469045500AC3288 /* Sources */,
+				A2DAC6B42469045500AC3288 /* Frameworks */,
+				A2DAC6B52469045500AC3288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bed Time";
+			productName = "Bed Time";
+			productReference = A2DAC6B72469045500AC3288 /* Bed Time.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2DAC6CF2469045800AC3288 /* Bed TimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DAC6E72469045800AC3288 /* Build configuration list for PBXNativeTarget "Bed TimeTests" */;
+			buildPhases = (
+				A2DAC6CC2469045800AC3288 /* Sources */,
+				A2DAC6CD2469045800AC3288 /* Frameworks */,
+				A2DAC6CE2469045800AC3288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2DAC6D22469045800AC3288 /* PBXTargetDependency */,
+			);
+			name = "Bed TimeTests";
+			productName = "Bed TimeTests";
+			productReference = A2DAC6D02469045800AC3288 /* Bed TimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2DAC6DA2469045800AC3288 /* Bed TimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DAC6EA2469045800AC3288 /* Build configuration list for PBXNativeTarget "Bed TimeUITests" */;
+			buildPhases = (
+				A2DAC6D72469045800AC3288 /* Sources */,
+				A2DAC6D82469045800AC3288 /* Frameworks */,
+				A2DAC6D92469045800AC3288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2DAC6DD2469045800AC3288 /* PBXTargetDependency */,
+			);
+			name = "Bed TimeUITests";
+			productName = "Bed TimeUITests";
+			productReference = A2DAC6DB2469045800AC3288 /* Bed TimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2DAC6AF2469045500AC3288 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Muhammad Rasyid khaikal";
+				TargetAttributes = {
+					A2DAC6B62469045500AC3288 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					A2DAC6CF2469045800AC3288 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = A2DAC6B62469045500AC3288;
+					};
+					A2DAC6DA2469045800AC3288 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = A2DAC6B62469045500AC3288;
+					};
+				};
+			};
+			buildConfigurationList = A2DAC6B22469045500AC3288 /* Build configuration list for PBXProject "Bed Time" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2DAC6AE2469045500AC3288;
+			productRefGroup = A2DAC6B82469045500AC3288 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2DAC6B62469045500AC3288 /* Bed Time */,
+				A2DAC6CF2469045800AC3288 /* Bed TimeTests */,
+				A2DAC6DA2469045800AC3288 /* Bed TimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2DAC6B52469045500AC3288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DAC6CA2469045800AC3288 /* LaunchScreen.storyboard in Resources */,
+				A2DAC6C72469045800AC3288 /* Assets.xcassets in Resources */,
+				A2DAC6C22469045500AC3288 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DAC6CE2469045800AC3288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DAC6D92469045800AC3288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2DAC6B32469045500AC3288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DAC6BF2469045500AC3288 /* ViewController.swift in Sources */,
+				A2DAC6BB2469045500AC3288 /* AppDelegate.swift in Sources */,
+				A2DAC6C52469045500AC3288 /* Bed_Time.xcdatamodeld in Sources */,
+				A2DAC6BD2469045500AC3288 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DAC6CC2469045800AC3288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DAC6D52469045800AC3288 /* Bed_TimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DAC6D72469045800AC3288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DAC6E02469045800AC3288 /* Bed_TimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2DAC6D22469045800AC3288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2DAC6B62469045500AC3288 /* Bed Time */;
+			targetProxy = A2DAC6D12469045800AC3288 /* PBXContainerItemProxy */;
+		};
+		A2DAC6DD2469045800AC3288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2DAC6B62469045500AC3288 /* Bed Time */;
+			targetProxy = A2DAC6DC2469045800AC3288 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2DAC6C02469045500AC3288 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2DAC6C12469045500AC3288 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2DAC6C82469045800AC3288 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2DAC6C92469045800AC3288 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2DAC6E22469045800AC3288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2DAC6E32469045800AC3288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2DAC6E52469045800AC3288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bed Time/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haikal.Bed-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2DAC6E62469045800AC3288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bed Time/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haikal.Bed-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2DAC6E82469045800AC3288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bed TimeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haikal.Bed-TimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bed Time.app/Bed Time";
+			};
+			name = Debug;
+		};
+		A2DAC6E92469045800AC3288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bed TimeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haikal.Bed-TimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bed Time.app/Bed Time";
+			};
+			name = Release;
+		};
+		A2DAC6EB2469045800AC3288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bed TimeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haikal.Bed-TimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bed Time";
+			};
+			name = Debug;
+		};
+		A2DAC6EC2469045800AC3288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bed TimeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haikal.Bed-TimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bed Time";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2DAC6B22469045500AC3288 /* Build configuration list for PBXProject "Bed Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DAC6E22469045800AC3288 /* Debug */,
+				A2DAC6E32469045800AC3288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DAC6E42469045800AC3288 /* Build configuration list for PBXNativeTarget "Bed Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DAC6E52469045800AC3288 /* Debug */,
+				A2DAC6E62469045800AC3288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DAC6E72469045800AC3288 /* Build configuration list for PBXNativeTarget "Bed TimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DAC6E82469045800AC3288 /* Debug */,
+				A2DAC6E92469045800AC3288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DAC6EA2469045800AC3288 /* Build configuration list for PBXNativeTarget "Bed TimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DAC6EB2469045800AC3288 /* Debug */,
+				A2DAC6EC2469045800AC3288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2DAC6C32469045500AC3288 /* Bed_Time.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A2DAC6C42469045500AC3288 /* Bed_Time.xcdatamodel */,
+			);
+			currentVersion = A2DAC6C42469045500AC3288 /* Bed_Time.xcdatamodel */;
+			path = Bed_Time.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A2DAC6AF2469045500AC3288 /* Project object */;
+}
