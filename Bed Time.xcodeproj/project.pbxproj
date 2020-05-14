@@ -16,6 +16,7 @@
 		A2DAC6CA2469045800AC3288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DAC6C82469045800AC3288 /* LaunchScreen.storyboard */; };
 		A2DAC6D52469045800AC3288 /* Bed_TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6D42469045800AC3288 /* Bed_TimeTests.swift */; };
 		A2DAC6E02469045800AC3288 /* Bed_TimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6DF2469045800AC3288 /* Bed_TimeUITests.swift */; };
+		A2DAC6F02469068B00AC3288 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DAC6EF2469068B00AC3288 /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A2DAC6DB2469045800AC3288 /* Bed TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bed TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DAC6DF2469045800AC3288 /* Bed_TimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bed_TimeUITests.swift; sourceTree = "<group>"; };
 		A2DAC6E12469045800AC3288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DAC6ED2469068B00AC3288 /* Bed TimeDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Bed TimeDebug.entitlements"; sourceTree = "<group>"; };
+		A2DAC6EF2469068B00AC3288 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2DAC6F02469068B00AC3288 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +89,7 @@
 				A2DAC6D32469045800AC3288 /* Bed TimeTests */,
 				A2DAC6DE2469045800AC3288 /* Bed TimeUITests */,
 				A2DAC6B82469045500AC3288 /* Products */,
+				A2DAC6EE2469068B00AC3288 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +106,7 @@
 		A2DAC6B92469045500AC3288 /* Bed Time */ = {
 			isa = PBXGroup;
 			children = (
+				A2DAC6ED2469068B00AC3288 /* Bed TimeDebug.entitlements */,
 				A2DAC6BA2469045500AC3288 /* AppDelegate.swift */,
 				A2DAC6BC2469045500AC3288 /* SceneDelegate.swift */,
 				A2DAC6BE2469045500AC3288 /* ViewController.swift */,
@@ -129,6 +135,14 @@
 				A2DAC6E12469045800AC3288 /* Info.plist */,
 			);
 			path = "Bed TimeUITests";
+			sourceTree = "<group>";
+		};
+		A2DAC6EE2469068B00AC3288 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2DAC6EF2469068B00AC3288 /* HealthKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,7 +452,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Bed Time/Bed TimeDebug.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KVK7XD8255;
 				INFOPLIST_FILE = "Bed Time/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
