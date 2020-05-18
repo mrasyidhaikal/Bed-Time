@@ -19,10 +19,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        
-    }
+   override func viewDidLayoutSubviews() {
+             super.viewDidLayoutSubviews()
+             if Core.shared.isNewUser(){
+                 //show onboarding
+                 let vc = storyboard?.instantiateViewController(identifier: "control") as! PageControlViewController
+                 vc.modalPresentationStyle = .fullScreen
+                 present(vc, animated: true)
+             }
+         }
     
     @IBOutlet weak var VwAge: UIView!
     @IBOutlet weak var lblGender: UILabel!
@@ -101,5 +106,15 @@ class ViewController: UIViewController {
 
 }
 
+class Core{
+    static let shared = Core()
+    
+    func isNewUser() ->Bool {
+        return !UserDefaults.standard.bool(forKey: "isNewUser")
+    }
+    func setIsNotUser(){
+        UserDefaults.standard.set(true, forKey: "isNewUser")
+    }
+}
 
 

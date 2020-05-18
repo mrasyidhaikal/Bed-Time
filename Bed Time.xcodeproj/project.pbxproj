@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2497C932472572D00BC67C8 /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2497C922472572D00BC67C8 /* PageControlViewController.swift */; };
+		A2497C95247257C200BC67C8 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2497C94247257C200BC67C8 /* OnBoardingViewController.swift */; };
 		A2DAC6BB2469045500AC3288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6BA2469045500AC3288 /* AppDelegate.swift */; };
 		A2DAC6BD2469045500AC3288 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6BC2469045500AC3288 /* SceneDelegate.swift */; };
 		A2DAC6BF2469045500AC3288 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6BE2469045500AC3288 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2497C922472572D00BC67C8 /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
+		A2497C94247257C200BC67C8 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		A2DAC6B72469045500AC3288 /* Bed Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bed Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DAC6BA2469045500AC3288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2DAC6BC2469045500AC3288 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 				A2DAC6C82469045800AC3288 /* LaunchScreen.storyboard */,
 				A2DAC6CB2469045800AC3288 /* Info.plist */,
 				A2DAC6C32469045500AC3288 /* Bed_Time.xcdatamodeld */,
+				A2497C922472572D00BC67C8 /* PageControlViewController.swift */,
+				A2497C94247257C200BC67C8 /* OnBoardingViewController.swift */,
 			);
 			path = "Bed Time";
 			sourceTree = "<group>";
@@ -278,6 +284,8 @@
 			files = (
 				A2DAC6BF2469045500AC3288 /* ViewController.swift in Sources */,
 				A2DAC6BB2469045500AC3288 /* AppDelegate.swift in Sources */,
+				A2497C932472572D00BC67C8 /* PageControlViewController.swift in Sources */,
+				A2497C95247257C200BC67C8 /* OnBoardingViewController.swift in Sources */,
 				A2DAC6C52469045500AC3288 /* Bed_Time.xcdatamodeld in Sources */,
 				A2DAC6BD2469045500AC3288 /* SceneDelegate.swift in Sources */,
 			);
