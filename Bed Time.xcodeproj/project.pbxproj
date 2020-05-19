@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A20EDB0C2473A18900128993 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20EDB0B2473A18900128993 /* TabBarViewController.swift */; };
 		A2497C932472572D00BC67C8 /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2497C922472572D00BC67C8 /* PageControlViewController.swift */; };
 		A2497C95247257C200BC67C8 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2497C94247257C200BC67C8 /* OnBoardingViewController.swift */; };
 		A2DAC6BB2469045500AC3288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6BA2469045500AC3288 /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A20EDB0B2473A18900128993 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		A2497C922472572D00BC67C8 /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
 		A2497C94247257C200BC67C8 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		A2DAC6B72469045500AC3288 /* Bed Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bed Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +123,7 @@
 				A2DAC6C32469045500AC3288 /* Bed_Time.xcdatamodeld */,
 				A2497C922472572D00BC67C8 /* PageControlViewController.swift */,
 				A2497C94247257C200BC67C8 /* OnBoardingViewController.swift */,
+				A20EDB0B2473A18900128993 /* TabBarViewController.swift */,
 			);
 			path = "Bed Time";
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				A2DAC6BB2469045500AC3288 /* AppDelegate.swift in Sources */,
 				A2497C932472572D00BC67C8 /* PageControlViewController.swift in Sources */,
 				A2497C95247257C200BC67C8 /* OnBoardingViewController.swift in Sources */,
+				A20EDB0C2473A18900128993 /* TabBarViewController.swift in Sources */,
 				A2DAC6C52469045500AC3288 /* Bed_Time.xcdatamodeld in Sources */,
 				A2DAC6BD2469045500AC3288 /* SceneDelegate.swift in Sources */,
 			);

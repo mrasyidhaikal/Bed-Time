@@ -14,7 +14,8 @@ class PageControlViewController: UIPageViewController,UIPageViewControllerDataSo
     lazy var orderedViewControllers : [UIViewController] = {
         return [ self.newVC(viewController : "screenOne"),
                 self.newVC(viewController : "screenTwo"),
-                self.newVC(viewController : "screenThree")
+                self.newVC(viewController : "screenThree"),
+                 self.newVC(viewController : "screenFour")
         ]
     }()
     var pageControl = UIPageControl()
