@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A20EDB0C2473A18900128993 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20EDB0B2473A18900128993 /* TabBarViewController.swift */; };
+		A20EDB0E2474EC9600128993 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20EDB0D2474EC9600128993 /* AlarmViewController.swift */; };
 		A2497C932472572D00BC67C8 /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2497C922472572D00BC67C8 /* PageControlViewController.swift */; };
 		A2497C95247257C200BC67C8 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2497C94247257C200BC67C8 /* OnBoardingViewController.swift */; };
 		A2DAC6BB2469045500AC3288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6BA2469045500AC3288 /* AppDelegate.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		A20EDB0B2473A18900128993 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		A20EDB0D2474EC9600128993 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
 		A2497C922472572D00BC67C8 /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
 		A2497C94247257C200BC67C8 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		A2DAC6B72469045500AC3288 /* Bed Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bed Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +126,7 @@
 				A2497C922472572D00BC67C8 /* PageControlViewController.swift */,
 				A2497C94247257C200BC67C8 /* OnBoardingViewController.swift */,
 				A20EDB0B2473A18900128993 /* TabBarViewController.swift */,
+				A20EDB0D2474EC9600128993 /* AlarmViewController.swift */,
 			);
 			path = "Bed Time";
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20EDB0E2474EC9600128993 /* AlarmViewController.swift in Sources */,
 				A2DAC6BF2469045500AC3288 /* ViewController.swift in Sources */,
 				A2DAC6BB2469045500AC3288 /* AppDelegate.swift in Sources */,
 				A2497C932472572D00BC67C8 /* PageControlViewController.swift in Sources */,
