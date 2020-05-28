@@ -7,9 +7,15 @@
 //
 
 import UIKit
-
+import HealthKit
 class OnBoardingViewController: UIViewController {
-
+     let healthStore = HKHealthStore()
+    
+    @IBOutlet weak var VwAge: UIView!
+       @IBOutlet weak var lblGender: UILabel!
+       @IBOutlet weak var lblAge: UILabel!
+      
+       @IBOutlet weak var btnGetData: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,14 +28,75 @@ class OnBoardingViewController: UIViewController {
                    dismiss(animated: true, completion: nil)
                              return
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func Permission(_ sender: UIButton) {
+         btnGetData.isHidden = false
+        self.Auth()
     }
-    */
-
+    @IBAction func Get(_ sender: UIButton) {
+        let (age,gender) = self.readProfile()
+        self.lblAge.text = "\(age!)"
+        self.lblGender.text = "\(gender!)"
+        VwAge.isHidden = false
+       
+    }
+    
+    func readProfile() -> (age:Int?,gender:String?)
+    {
+        var age : Int?
+        var gender : String?
+       
+        
+        do{
+           let calendar = Calendar.current
+         let currentYear = calendar.component(.year, from: Date())
+            if #available(iOS 10.0, *) {
+                     let birth = try! healthStore.dateOfBirthComponents()
+                     age = currentYear - birth.year!
+                           
+                  }
+            else {
+                //error
+            }
+            
+        }catch {}
+        
+        do{
+             if try! healthStore.biologicalSex().biologicalSex == HKBiologicalSex.female {
+                     gender = "Female"
+                   } else if try! healthStore.biologicalSex().biologicalSex == HKBiologicalSex.male {
+                      gender = "Male"
+                   } else if try! healthStore.biologicalSex().biologicalSex == HKBiologicalSex.other {
+                      gender = "Other"
+                   }
+            
+        }catch {}
+        
+        return (age,gender)
+            
+            
+           
+        }
+    func Auth() {
+            let HealthKitTypesToRead : Set <HKObjectType> = [
+          
+           HKObjectType.characteristicType(forIdentifier: .biologicalSex)!,
+           HKObjectType.characteristicType(forIdentifier: .dateOfBirth)!,
+           
+        ]
+            let healthKitTypesToWrite : Set<HKSampleType> = []
+            if !HKHealthStore.isHealthDataAvailable() {
+                print("Error occured")
+                return
+            }
+            healthStore.requestAuthorization(toShare: healthKitTypesToWrite, read: HealthKitTypesToRead){ (success, error) in
+            if !success {
+                // Handle the error here.
+            } else {
+                print("Success")
+                
+                          
+        }
+            }
+    }
+  
 }

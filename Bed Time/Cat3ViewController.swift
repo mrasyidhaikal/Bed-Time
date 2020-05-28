@@ -31,7 +31,7 @@ class Cat3ViewController: UIViewController {
             
             self.dataLabel.text = "\(countDown)"
             imageInt = 1
-            label.text = "\(imageInt)/7"
+            label.text = "\(imageInt) / 9"
         }
 
         @IBAction func startCount(_ sender: UIButton) {
@@ -46,7 +46,7 @@ class Cat3ViewController: UIViewController {
             countDown = 5
             dataLabel.text = "5"
             self.imageGallery()
-            label.text = "\(imageInt) / 7"
+            label.text = "\(imageInt) / 9"
             
         }
         
@@ -58,76 +58,76 @@ class Cat3ViewController: UIViewController {
             if imageInt == 2 {
                 Judul.text = "Standing Forward Fold"
                 imageview.image = UIImage (named: "ex2-cat3.png")
-                Tutor.text = "Gently bring your right ear towards your right shoulder, holding this position."
-                Tutor2.adjustsFontSizeToFitWidth = true
-                Tutor2.text = "Exhale as you cross your arms, placing your right arm over your left and your left over your right to give yourself a hug"
-                Tutor3.text = "Breathe deeply as you use your hands to draw your shoulders forward"
-                Tutor4.text = "To release, inhale to open your arms back open wide"
+                Tutor.text = "Stand with your feet about six inches apart, fold your body, toward the ground or bend your arms and grab the opposite elbows above your head."
+                Tutor.adjustsFontSizeToFitWidth = true
+                Tutor2.text = "Exhale and lengthen down through the crown of your head"
+                Tutor3.text = "Hold and hold for 60 seconds, shake it gently from one side to the other if desired."
+                Tutor4.text = ""
             }
             if imageInt == 3 {
                 Judul.text = "Lizard Pose"
                 imageview.image = UIImage (named: "ex3-cat3.png")
-                Tutor.text = "Come into a kneeling position in front of a chair, couch, or low table."
-                Tutor2.text = "Check that your knees are directly under your hips. You can rest on a blanket or cushion for extra support."
-                Tutor3.adjustsFontSizeToFitWidth = true
-                Tutor3.text = "Lengthen your spine as you hinge at the hips to fold forward, put your forearms with palms facing together, hold "
+                Tutor.text = "Starting with the dog facing down, step your right foot outside of your right hand and bend your knees, come into a lunge position, right thighs parallel to the floor, toes slightly out."
+                Tutor2.text = " Come down to rest elbows on the ground. Keep neck and spine in line, and press left heel away, keeping hips square."
+                Tutor.adjustsFontSizeToFitWidth = true
+                Tutor3.text = "Hold for 15 seconds. Repeat on the left side."
                 Tutor4.text = ""
             }
             if imageInt == 4 {
                 Judul.text = "Up The Wall"
                 imageview.image = UIImage (named: "ex4-cat3.png")
-                Tutor.text = "Come down on your knees, sitting back on your heels."
-                Tutor2.text = "Hinge at your hips to fold forward and rest your forehead on the floor."
-                Tutor3.text = "Extend your arms in front of you to support your neck or bring your arms alongside your body."
-                Tutor4.text = "Breath deeply in while holding the pose."
+                Tutor.text = "Sit facing wall and lie onto your back."
+                Tutor2.text = "place your buttocks as close to the wall as possible, lift your legs and lean your back against the wall, legs perpendicular."
+                Tutor3.text = "Rest with your arms out to sides, palms up. Hold for 60 seconds. "
+                Tutor4.text = ""
             }
             if imageInt == 5 {
-                Judul.text = "Before-Bed Bridge"
-                imageview.image = UIImage (named: "ex5-cat3.png")
-            Tutor.text = "put your right foot below your knee and your left leg extended back, keeping your knee on the floor."
-            Tutor2.text = "put your hands to the floor beneath your shoulders, on your knees"
-            Tutor3.text = "Breathe deeply, focusing on lengthening your spine and opening your chest."
-            Tutor4.text = "Hold, then repeat on the opposite side."
+            Judul.text = "Before-Bed Bridge"
+            imageview.image = UIImage (named: "ex5-cat3.png")
+            Tutor.text = "Lie faceup with knees bent, feet flat on floor, arms extended by sides, palms up."
+            Tutor2.text = "Keeping shoulders down, engaging abs and press into heels to lift hips and back to form a diagonal line."
+            Tutor3.text = "Hold for 60 seconds or 10 to 12 breaths"
+           
             }
             if imageInt == 6 {
                 Judul.text = "Seated Forward Fold"
                 imageview.image = UIImage (named: "ex6-cat3.png")
-              Tutor.text = "Sit down with your legs extended in front of you"
-              Tutor2.text = "Engage your abdominal slightly to lengthen your spine, pressing your sit bones into the floor."
-              Tutor3.text = "Hinge at your hips to fold forward, reaching out your arms in front of you."
-              Tutor4.text = "Relax your head and tuck your chin into your chest and hold this pose."
+              Tutor.text = "Sit down then, back straight, legs together and stretch out in front of you."
+              Tutor2.text = "Flex feet (keep them active) and bend forward from hips, reach for toes with hands."
+              Tutor3.text = "Hold on for 60 second"
+              Tutor4.text = ""
        
             }
             if imageInt == 7 {
                 Judul.text = "Seated Side Bend"
                 imageview.image = UIImage (named: "ex7-cat3.png")
-                Tutor.text = "Sit with the right side of your body against a wall."
-                Tutor2.text = "Lie on your back as you swing your legs up against the wall."
-                Tutor3.adjustsFontSizeToFitWidth = true
-                Tutor3.text = "Your hips can be up against the wall or a few inches away. Choose the distance that feels most comfortable."
-                Tutor4.text = "Rest your arms in any comfortable position and hold this pose."
+                Tutor.text = "Sit on a pillow, cross-legged position. Put your left hand on the floor, bend your left elbow. Stretch your right arm with your ears."
+                Tutor2.text = "Lean to left, keeping butt on floor,shoulders down "
+                Tutor.adjustsFontSizeToFitWidth = true
+                Tutor3.text = "Hold on for 30 second and switch sides for 30 seconds"
+                Tutor4.text = ""
              
                 
             }
             if imageInt == 8 {
                        Judul.text = "Happy Baby"
                        imageview.image = UIImage (named: "ex8-cat3.png")
-                       Tutor.text = "Sit with the right side of your body against a wall."
-                       Tutor2.text = "Lie on your back as you swing your legs up against the wall."
-                       Tutor3.adjustsFontSizeToFitWidth = true
-                       Tutor3.text = "Your hips can be up against the wall or a few inches away. Choose the distance that feels most comfortable."
-                       Tutor4.text = "Rest your arms in any comfortable position and hold this pose."
+                       Tutor.text = "Lie on your back, lift legs and bend knees, feet flexed towards the ceiling."
+                       Tutor2.text = "Hold each big toe with each hand and bend your knees toward the armpits. If you can, shake it from left to right."
+                       Tutor2.adjustsFontSizeToFitWidth = true
+                       Tutor3.text = "Hold for 60 Second"
+                       Tutor4.text = ""
                     
                        
                    }
             if imageInt == 9 {
                        Judul.text = "Figure Four"
                        imageview.image = UIImage (named: "ex9-cat3.png")
-                       Tutor.text = "Sit with the right side of your body against a wall."
-                       Tutor2.text = "Lie on your back as you swing your legs up against the wall."
+                       Tutor.text = "Lie on your back with legs extended in front of you"
+                       Tutor2.text = "Lift right leg, bend knee, and hug leg with arms into chest for five seconds."
                        Tutor3.adjustsFontSizeToFitWidth = true
-                       Tutor3.text = "Your hips can be up against the wall or a few inches away. Choose the distance that feels most comfortable."
-                       Tutor4.text = "Rest your arms in any comfortable position and hold this pose."
+                       Tutor3.text = "Lift your left leg straight up, bend your right knee and place your right ankle to the left. Move your hands behind your left foot and pull your left leg."
+                       Tutor4.text = "Hold for 60 Second."
                        Next.isHidden = true
                        
                    }
@@ -141,7 +141,7 @@ class Cat3ViewController: UIViewController {
                 Next.isHidden = false
               
                 StartBtn.isHidden = true
-                if imageInt == 7{
+                if imageInt == 9{
                     Finish.isHidden = false
                 }
                 
