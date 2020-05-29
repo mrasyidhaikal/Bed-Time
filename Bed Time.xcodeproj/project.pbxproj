@@ -10,6 +10,8 @@
 		A20EDB0C2473A18900128993 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20EDB0B2473A18900128993 /* TabBarViewController.swift */; };
 		A23B8F90247CA1DD0027621E /* Cat2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23B8F8F247CA1DD0027621E /* Cat2ViewController.swift */; };
 		A23B8F94247CCCB60027621E /* Cat3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23B8F93247CCCB60027621E /* Cat3ViewController.swift */; };
+		A23B8F96247F55AE0027621E /* Cat1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23B8F95247F55AD0027621E /* Cat1ViewController.swift */; };
+		A23B8F982480B1440027621E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23B8F972480B1430027621E /* Assets.xcassets */; };
 		A2497C932472572D00BC67C8 /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2497C922472572D00BC67C8 /* PageControlViewController.swift */; };
 		A2497C95247257C200BC67C8 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2497C94247257C200BC67C8 /* OnBoardingViewController.swift */; };
 		A2DAC6BB2469045500AC3288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6BA2469045500AC3288 /* AppDelegate.swift */; };
@@ -17,7 +19,6 @@
 		A2DAC6BF2469045500AC3288 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6BE2469045500AC3288 /* ViewController.swift */; };
 		A2DAC6C22469045500AC3288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DAC6C02469045500AC3288 /* Main.storyboard */; };
 		A2DAC6C52469045500AC3288 /* Bed_Time.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6C32469045500AC3288 /* Bed_Time.xcdatamodeld */; };
-		A2DAC6C72469045800AC3288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DAC6C62469045800AC3288 /* Assets.xcassets */; };
 		A2DAC6CA2469045800AC3288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DAC6C82469045800AC3288 /* LaunchScreen.storyboard */; };
 		A2DAC6D52469045800AC3288 /* Bed_TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6D42469045800AC3288 /* Bed_TimeTests.swift */; };
 		A2DAC6E02469045800AC3288 /* Bed_TimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6DF2469045800AC3288 /* Bed_TimeUITests.swift */; };
@@ -45,6 +46,8 @@
 		A20EDB0B2473A18900128993 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		A23B8F8F247CA1DD0027621E /* Cat2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat2ViewController.swift; sourceTree = "<group>"; };
 		A23B8F93247CCCB60027621E /* Cat3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat3ViewController.swift; sourceTree = "<group>"; };
+		A23B8F95247F55AD0027621E /* Cat1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat1ViewController.swift; sourceTree = "<group>"; };
+		A23B8F972480B1430027621E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2497C922472572D00BC67C8 /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
 		A2497C94247257C200BC67C8 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		A2DAC6B72469045500AC3288 /* Bed Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bed Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,7 +56,6 @@
 		A2DAC6BE2469045500AC3288 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2DAC6C12469045500AC3288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2DAC6C42469045500AC3288 /* Bed_Time.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bed_Time.xcdatamodel; sourceTree = "<group>"; };
-		A2DAC6C62469045800AC3288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2DAC6C92469045800AC3288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2DAC6CB2469045800AC3288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2DAC6D02469045800AC3288 /* Bed TimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bed TimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,12 +118,12 @@
 		A2DAC6B92469045500AC3288 /* Bed Time */ = {
 			isa = PBXGroup;
 			children = (
+				A23B8F972480B1430027621E /* Assets.xcassets */,
 				A2DAC6ED2469068B00AC3288 /* Bed TimeDebug.entitlements */,
 				A2DAC6BA2469045500AC3288 /* AppDelegate.swift */,
 				A2DAC6BC2469045500AC3288 /* SceneDelegate.swift */,
 				A2DAC6BE2469045500AC3288 /* ViewController.swift */,
 				A2DAC6C02469045500AC3288 /* Main.storyboard */,
-				A2DAC6C62469045800AC3288 /* Assets.xcassets */,
 				A2DAC6C82469045800AC3288 /* LaunchScreen.storyboard */,
 				A2DAC6CB2469045800AC3288 /* Info.plist */,
 				A2DAC6C32469045500AC3288 /* Bed_Time.xcdatamodeld */,
@@ -130,6 +132,7 @@
 				A20EDB0B2473A18900128993 /* TabBarViewController.swift */,
 				A23B8F8F247CA1DD0027621E /* Cat2ViewController.swift */,
 				A23B8F93247CCCB60027621E /* Cat3ViewController.swift */,
+				A23B8F95247F55AD0027621E /* Cat1ViewController.swift */,
 			);
 			path = "Bed Time";
 			sourceTree = "<group>";
@@ -265,7 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2DAC6CA2469045800AC3288 /* LaunchScreen.storyboard in Resources */,
-				A2DAC6C72469045800AC3288 /* Assets.xcassets in Resources */,
+				A23B8F982480B1440027621E /* Assets.xcassets in Resources */,
 				A2DAC6C22469045500AC3288 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A23B8F90247CA1DD0027621E /* Cat2ViewController.swift in Sources */,
+				A23B8F96247F55AE0027621E /* Cat1ViewController.swift in Sources */,
 				A2DAC6BF2469045500AC3288 /* ViewController.swift in Sources */,
 				A2DAC6BB2469045500AC3288 /* AppDelegate.swift in Sources */,
 				A2497C932472572D00BC67C8 /* PageControlViewController.swift in Sources */,
