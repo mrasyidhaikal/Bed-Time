@@ -12,6 +12,7 @@
 		A23B8F94247CCCB60027621E /* Cat3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23B8F93247CCCB60027621E /* Cat3ViewController.swift */; };
 		A23B8F96247F55AE0027621E /* Cat1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23B8F95247F55AD0027621E /* Cat1ViewController.swift */; };
 		A23B8F982480B1440027621E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23B8F972480B1430027621E /* Assets.xcassets */; };
+		A23B8F9A2485F0CE0027621E /* playSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23B8F992485F0CE0027621E /* playSound.swift */; };
 		A2497C932472572D00BC67C8 /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2497C922472572D00BC67C8 /* PageControlViewController.swift */; };
 		A2497C95247257C200BC67C8 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2497C94247257C200BC67C8 /* OnBoardingViewController.swift */; };
 		A2DAC6BB2469045500AC3288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6BA2469045500AC3288 /* AppDelegate.swift */; };
@@ -48,6 +49,7 @@
 		A23B8F93247CCCB60027621E /* Cat3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat3ViewController.swift; sourceTree = "<group>"; };
 		A23B8F95247F55AD0027621E /* Cat1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat1ViewController.swift; sourceTree = "<group>"; };
 		A23B8F972480B1430027621E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A23B8F992485F0CE0027621E /* playSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playSound.swift; sourceTree = "<group>"; };
 		A2497C922472572D00BC67C8 /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
 		A2497C94247257C200BC67C8 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		A2DAC6B72469045500AC3288 /* Bed Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bed Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +135,7 @@
 				A23B8F8F247CA1DD0027621E /* Cat2ViewController.swift */,
 				A23B8F93247CCCB60027621E /* Cat3ViewController.swift */,
 				A23B8F95247F55AD0027621E /* Cat1ViewController.swift */,
+				A23B8F992485F0CE0027621E /* playSound.swift */,
 			);
 			path = "Bed Time";
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				A2497C95247257C200BC67C8 /* OnBoardingViewController.swift in Sources */,
 				A20EDB0C2473A18900128993 /* TabBarViewController.swift in Sources */,
 				A2DAC6C52469045500AC3288 /* Bed_Time.xcdatamodeld in Sources */,
+				A23B8F9A2485F0CE0027621E /* playSound.swift in Sources */,
 				A2DAC6BD2469045500AC3288 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -462,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

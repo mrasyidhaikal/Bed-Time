@@ -99,13 +99,14 @@ class Cat1ViewController: UIViewController {
             if dataLabel.text == "0" {
                 timer.invalidate()
                 Next.isHidden = false
-              
+                 playSound(sound: "CountDown", type: "mp3")
                 StartBtn.isHidden = true
                 if imageInt == 5{
                     Finish.isHidden = false
                 }
                 
             }
+          
         }
 }
 

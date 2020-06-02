@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UserNotifications
 import HealthKit
 class OnBoardingViewController: UIViewController {
      let healthStore = HKHealthStore()
@@ -14,7 +15,8 @@ class OnBoardingViewController: UIViewController {
     @IBOutlet weak var VwAge: UIView!
        @IBOutlet weak var lblGender: UILabel!
        @IBOutlet weak var lblAge: UILabel!
-      
+      @IBOutlet weak var btnPermission: UIButton!
+    @IBOutlet weak var btnFinish: UIButton!
        @IBOutlet weak var btnGetData: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,13 +32,29 @@ class OnBoardingViewController: UIViewController {
     }
     @IBAction func Permission(_ sender: UIButton) {
          btnGetData.isHidden = false
-        self.Auth()
+        btnPermission.isHidden = true
+        let alert = UIAlertController(title: " 'Beti' Request Access", message: "Allow 'Beti' access to Health to Send and Share information", preferredStyle: .alert)
+
+        alert.addAction(UIAlertAction(title: "Allow", style: .default, handler: { action in
+           self.Auth()
+          }))
+           alert.addAction(UIAlertAction(title: "Don't Allow", style: .cancel, handler: { action in
+            print("Gagal")
+                 }))
+
+          self.present(alert, animated: true)
+        
+        
+      
     }
     @IBAction func Get(_ sender: UIButton) {
         let (age,gender) = self.readProfile()
         self.lblAge.text = "\(age!)"
         self.lblGender.text = "\(gender!)"
         VwAge.isHidden = false
+        btnGetData.isHidden = true
+        btnFinish.isHidden = false
+        
        
     }
     
