@@ -22,7 +22,7 @@ class Cat3ViewController: UIViewController {
      @IBOutlet weak var Tutor4: UILabel!
     
     @IBOutlet weak var Judul: UILabel!
-    var countDown = 5
+    var countDown = 10
        var imageInt = 0
        var timer = Timer()
      override func viewDidLoad() {
@@ -43,8 +43,8 @@ class Cat3ViewController: UIViewController {
             imageInt += 1
             StartBtn.isHidden = false
             Next.isHidden = true
-            countDown = 5
-            dataLabel.text = "5"
+            countDown = 10
+            dataLabel.text = "10"
             self.imageGallery()
             label.text = "\(imageInt) / 9"
             
@@ -70,6 +70,7 @@ class Cat3ViewController: UIViewController {
                 Tutor.text = "Starting with the dog facing down, step your right foot outside of your right hand and bend your knees, come into a lunge position, right thighs parallel to the floor, toes slightly out."
                 Tutor2.text = " Come down to rest elbows on the ground. Keep neck and spine in line, and press left heel away, keeping hips square."
                 Tutor.adjustsFontSizeToFitWidth = true
+                Tutor2.adjustsFontSizeToFitWidth = true
                 Tutor3.text = "Hold for 15 seconds. Repeat on the left side."
                 Tutor4.text = ""
             }
@@ -78,6 +79,7 @@ class Cat3ViewController: UIViewController {
                 imageview.image = UIImage (named: "ex4-cat3.png")
                 Tutor.text = "Sit facing wall and lie onto your back."
                 Tutor2.text = "place your buttocks as close to the wall as possible, lift your legs and lean your back against the wall, legs perpendicular."
+                Tutor2.adjustsFontSizeToFitWidth = true
                 Tutor3.text = "Rest with your arms out to sides, palms up. Hold for 60 seconds. "
                 Tutor4.text = ""
             }
@@ -86,12 +88,13 @@ class Cat3ViewController: UIViewController {
             imageview.image = UIImage (named: "ex5-cat3.png")
             Tutor.text = "Lie faceup with knees bent, feet flat on floor, arms extended by sides, palms up."
             Tutor2.text = "Keeping shoulders down, engaging abs and press into heels to lift hips and back to form a diagonal line."
+                Tutor2.adjustsFontSizeToFitWidth = true
             Tutor3.text = "Hold for 60 seconds or 10 to 12 breaths"
            
             }
             if imageInt == 6 {
                 Judul.text = "Seated Forward Fold"
-                imageview.image = UIImage (named: "ex6-cat3.png")
+                imageview.image = UIImage (named: "ex8-cat3.png")
               Tutor.text = "Sit down then, back straight, legs together and stretch out in front of you."
               Tutor2.text = "Flex feet (keep them active) and bend forward from hips, reach for toes with hands."
               Tutor3.text = "Hold on for 60 second"
@@ -111,7 +114,7 @@ class Cat3ViewController: UIViewController {
             }
             if imageInt == 8 {
                        Judul.text = "Happy Baby"
-                       imageview.image = UIImage (named: "ex8-cat3.png")
+                       imageview.image = UIImage (named: "ex6-cat3.png")
                        Tutor.text = "Lie on your back, lift legs and bend knees, feet flexed towards the ceiling."
                        Tutor2.text = "Hold each big toe with each hand and bend your knees toward the armpits. If you can, shake it from left to right."
                        Tutor2.adjustsFontSizeToFitWidth = true
@@ -146,6 +149,9 @@ class Cat3ViewController: UIViewController {
                 }
                 
             }
+            if dataLabel.text == "5" {
+                            playSound(sound: "CountDown", type: "mp3")
+                       }
         }
 }
 

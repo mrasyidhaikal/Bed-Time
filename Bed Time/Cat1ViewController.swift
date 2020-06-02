@@ -22,7 +22,7 @@ class Cat1ViewController: UIViewController {
      @IBOutlet weak var Tutor4: UILabel!
     
     @IBOutlet weak var Judul: UILabel!
-    var countDown = 5
+    var countDown = 10
        var imageInt = 0
        var timer = Timer()
      override func viewDidLoad() {
@@ -43,8 +43,8 @@ class Cat1ViewController: UIViewController {
             imageInt += 1
             StartBtn.isHidden = false
             Next.isHidden = true
-            countDown = 5
-            dataLabel.text = "5"
+            countDown = 10
+            dataLabel.text = "10"
             self.imageGallery()
             label.text = "\(imageInt) / 5"
             
@@ -99,14 +99,16 @@ class Cat1ViewController: UIViewController {
             if dataLabel.text == "0" {
                 timer.invalidate()
                 Next.isHidden = false
-                 playSound(sound: "CountDown", type: "mp3")
+               
                 StartBtn.isHidden = true
                 if imageInt == 5{
                     Finish.isHidden = false
                 }
                 
             }
-          
+              if dataLabel.text == "5" {
+                 playSound(sound: "CountDown", type: "mp3")
+            }
         }
 }
 

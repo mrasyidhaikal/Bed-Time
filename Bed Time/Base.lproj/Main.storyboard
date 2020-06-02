@@ -1096,8 +1096,8 @@ stay in a deeper sleep longer</string>
                                 <rect key="frame" x="103" y="603" width="212" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qg7-ha-iu6">
-                                <rect key="frame" x="202" y="649" width="12" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qg7-ha-iu6">
+                                <rect key="frame" x="196" y="649" width="22" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1210,7 +1210,7 @@ stay in a deeper sleep longer</string>
                                 </state>
                                 <connections>
                                     <action selector="next:" destination="dac-8F-q17" eventType="touchUpInside" id="8QW-Dw-M46"/>
-                                    <segue destination="ouO-rm-Lla" kind="show" id="rNk-W6-Smr"/>
+                                    <segue destination="KJw-9f-ZEF" kind="presentation" modalPresentationStyle="fullScreen" id="e8g-IG-aTt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1371,7 +1371,7 @@ stay in a deeper sleep longer</string>
                                 </state>
                                 <connections>
                                     <action selector="next:" destination="dac-8F-q17" eventType="touchUpInside" id="Z62-BD-cOp"/>
-                                    <segue destination="ouO-rm-Lla" kind="show" id="2sG-g1-LNF"/>
+                                    <segue destination="KJw-9f-ZEF" kind="presentation" modalPresentationStyle="fullScreen" id="93N-Cu-T4s"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sleeping Swan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5G-ki-E7m">
@@ -1385,8 +1385,8 @@ stay in a deeper sleep longer</string>
                                 <rect key="frame" x="84" y="187" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLz-V0-gff">
-                                <rect key="frame" x="202" y="648" width="12" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLz-V0-gff">
+                                <rect key="frame" x="196" y="648" width="22" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1423,8 +1423,8 @@ stay in a deeper sleep longer</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bg-Gradient" translatesAutoresizingMaskIntoConstraints="NO" id="Doi-xx-aOW">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Bg-Gradient" translatesAutoresizingMaskIntoConstraints="NO" id="Doi-xx-aOW">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvp-zU-YQa">
                                 <rect key="frame" x="200" y="648" width="11" height="21"/>
@@ -1468,8 +1468,8 @@ stay in a deeper sleep longer</string>
                                 <rect key="frame" x="101" y="602" width="212" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNc-9L-tiG">
-                                <rect key="frame" x="200" y="648" width="12" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNc-9L-tiG">
+                                <rect key="frame" x="194" y="648" width="22" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1553,7 +1553,7 @@ stay in a deeper sleep longer</string>
                                 </state>
                                 <connections>
                                     <action selector="next:" destination="dac-8F-q17" eventType="touchUpInside" id="ZOC-jS-2eo"/>
-                                    <segue destination="ouO-rm-Lla" kind="show" id="X2s-Gr-u5a"/>
+                                    <segue destination="KJw-9f-ZEF" kind="presentation" modalPresentationStyle="fullScreen" id="rOA-Ek-eoo"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lpy-ha-Wyc">
@@ -1805,10 +1805,20 @@ increasing your sleep at the same time!</string>
         <!--Workout-->
         <scene sceneID="m25-Ma-2Lr">
             <objects>
-                <viewController id="S6c-G0-M6O" sceneMemberID="viewController">
+                <viewController id="S6c-G0-M6O" customClass="TestViewController" customModule="Bed_Time" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4gC-n3-eaK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMU-TV-gPn">
+                                <rect key="frame" x="200" y="421" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="music:" destination="S6c-G0-M6O" eventType="touchUpInside" id="rR9-4n-MhG"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="VYn-Wc-as4"/>
                     </view>
@@ -1949,6 +1959,7 @@ sleeping schedule.</string>
         <scene sceneID="p1g-jQ-1TV">
             <objects>
                 <tabBarController id="KJw-9f-ZEF" customClass="TabBarViewController" customModule="Bed_Time" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="kDW-yo-pUn"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sZP-XN-ESW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1976,6 +1987,7 @@ sleeping schedule.</string>
                         <color key="badgeColor" red="0.1529411765" green="0.56078431370000004" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBarItem>
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="JGF-uR-SM5"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2HI-pL-Er5">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2021,7 +2033,7 @@ sleeping schedule.</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="X2s-Gr-u5a"/>
+        <segue reference="e8g-IG-aTt"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Beti" width="86" height="46"/>
