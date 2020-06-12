@@ -20,7 +20,7 @@ class Cat1ViewController: UIViewController {
     @IBOutlet weak var Tutor2: UILabel!
      @IBOutlet weak var Tutor3: UILabel!
      @IBOutlet weak var Tutor4: UILabel!
-    
+     let speechService = SpeechService()
     @IBOutlet weak var Judul: UILabel!
     var countDown = 10
        var imageInt = 0
@@ -28,8 +28,13 @@ class Cat1ViewController: UIViewController {
      override func viewDidLoad() {
             super.viewDidLoad()
             // Do any additional setup after loading the view.
-            
+            Tutor.accessibilityLabel = ""
+        speechService.say2("This exercise is called Side Strech, how to do it, first Bend one leg and place both of your hands on your knee, secondly Bring your knee to your chest, third Breathe deeply as you use your hands to draw your shoulders forward, then Hold for 30 second, then repeat on the other side for 30 seconds. if you already understand say tab start , or press the button below.  ")
+                       Tutor2.accessibilityLabel = ""
+                       Tutor3.accessibilityLabel = ""
+                       Tutor4.accessibilityLabel = ""
             self.dataLabel.text = "\(countDown)"
+        imageview.image = UIImage.gifImageWithName("cat1-1")
             imageInt = 1
             label.text = "\(imageInt) / 5"
         }
@@ -51,22 +56,34 @@ class Cat1ViewController: UIViewController {
         }
         
         func imageGallery() {
+           
             if imageInt == 1 {
-                imageview.image = UIImage (named: "ex1-cat1.png")
+               imageview.image = UIImage.gifImageWithName("cat1-1")
             
             }
             if imageInt == 2 {
+                Tutor.accessibilityLabel = ""
+                           Tutor2.accessibilityLabel = ""
+                           Tutor3.accessibilityLabel = ""
+                           Tutor4.accessibilityLabel = ""
+                  speechService.say2( "This exercise is called a spinal twist, how to do it, first Position your back on the floor, spread both hands over your side, second Slowly cross your left leg over the right side of your body and allow it to fall naturally towards the floor, third For a deeper twist, turn your head to the left, and Repeat on the other side ., if you already understand say the start tab or press the button below and when it's finished say the next tab or press the button below".localized)
+                
                 Judul.text = "Spinal Twist"
-                imageview.image = UIImage (named: "ex2-cat1.png")
-                Tutor.text = "On your back, extend both arms outform your sides"
+                imageview.image = UIImage.gifImageWithName("cat1-2")
+                Tutor.text = "Position your back on the floor, spread both hands over your side"
                 Tutor2.adjustsFontSizeToFitWidth = true
                 Tutor2.text = "Slowly cross your left leg over the right side of your body and allow it to fall naturally towards the floor."
                 Tutor3.text = "For a deeper twist, turn your head to the left"
                 Tutor4.text = "Repeat on the other side."
             }
             if imageInt == 3 {
-                Judul.text = "Side Stretch"
-                imageview.image = UIImage (named: "ex3-cat1.png")
+                   speechService.say2( "This exercise is called a Lungle, how to do it, first Extend your left arm above your head while seated, Keep your left arm above your ear then place your right hand on the floor and lean to the right, holding the left arm, third Hold for 30 second, then repeat on the other side for 30 second. if you already understand say the start tab or press the button below and when it's finished say the next tab or press the button below".localized)
+                Tutor.accessibilityLabel = ""
+                           Tutor2.accessibilityLabel = ""
+                           Tutor3.accessibilityLabel = ""
+                           Tutor4.accessibilityLabel = ""
+                Judul.text = "Lungle"
+               imageview.image = UIImage.gifImageWithName("cat1-3")
                 Tutor.text = "Extend your left arm above your head while seated"
                 Tutor2.text = "Keep your left arm above your ear then place your right hand on the floor and lean to the right, holding the left arm"
                 Tutor2.adjustsFontSizeToFitWidth = true
@@ -74,16 +91,26 @@ class Cat1ViewController: UIViewController {
                 Tutor4.text = ""
             }
             if imageInt == 4 {
-                Judul.text = "Lunge"
-                imageview.image = UIImage (named: "ex4-cat1.png")
+                 speechService.say2( "This exercise is called Knee To Chest, how to do it, first From a standing or kneeling position, place one foot in front of the other and bend your knees to the lunge, second Allow your opposite knee to support some of your weight, third Concentrate on keeping your spine straight and chest open, then repeat on the other side. if you already understand say the start tab or press the button below and when it's finished say the next tab or press the button below".localized)
+                Tutor.accessibilityLabel = ""
+                           Tutor2.accessibilityLabel = ""
+                           Tutor3.accessibilityLabel = ""
+                           Tutor4.accessibilityLabel = ""
+                Judul.text = "Knee To Chest"
+                imageview.image = UIImage.gifImageWithName("cat1-4")
                 Tutor.text = "From a standing or kneeling position, place one foot in front of the other and bend your knees to lunge."
                 Tutor2.text = "Allow your opposite knee to support some of your weight."
                 Tutor3.text = "Concentrate on keeping your spine straight and chest open, then repeat on the other side."
                 Tutor4.text = ""
             }
             if imageInt == 5 {
+                speechService.say2("This exercise is called Butterfly Pose, how to do it, first Sitting with your legs straight in front of you, bring the soles of your feet together, second Keep your spine as straight as you bring your feet towards your body, third Breathe deeply, focusing on lengthening your spine and opening your chest, then Rest in this pose to deepen the stretch. if you already understand say the start tab or press the button below and when it's finished say the next tab or press the button below")
+                Tutor.accessibilityLabel = ""
+                           Tutor2.accessibilityLabel = ""
+                           Tutor3.accessibilityLabel = ""
+                           Tutor4.accessibilityLabel = ""
                 Judul.text = "Butterfly Pose"
-                imageview.image = UIImage (named: "ex5-cat1.png")
+                imageview.image = UIImage.gifImageWithName("cat1-5")
             Tutor.text = "Sitting with your legs straight in front of you, bring the soles of your feet together."
             Tutor2.text = "Keep your spine as straight as you bring your feet towards your body."
             Tutor3.text = "Breathe deeply, focusing on lengthening your spine and opening your chest."
@@ -99,7 +126,7 @@ class Cat1ViewController: UIViewController {
             if dataLabel.text == "0" {
                 timer.invalidate()
                 Next.isHidden = false
-               
+                speechService.say2("the excersise is finished, press the next button below, or say the next tab , to start a new excersise")
                 StartBtn.isHidden = true
                 if imageInt == 5{
                     Finish.isHidden = false

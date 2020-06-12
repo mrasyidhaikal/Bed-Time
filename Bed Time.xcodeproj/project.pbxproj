@@ -17,6 +17,14 @@
 		A2497C95247257C200BC67C8 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2497C94247257C200BC67C8 /* OnBoardingViewController.swift */; };
 		A26A6E5D248E04E70085110E /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26A6E5C248E04E70085110E /* ReminderViewController.swift */; };
 		A26A6E5F248F3A780085110E /* AccsessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26A6E5E248F3A780085110E /* AccsessViewController.swift */; };
+		A26A6E652491CF260085110E /* Cat1AccsesibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26A6E642491CF260085110E /* Cat1AccsesibilityViewController.swift */; };
+		A26A6E672491E6A30085110E /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26A6E662491E6A30085110E /* Gif.swift */; };
+		A26A6E692491E75F0085110E /* cat1-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = A26A6E682491E75F0085110E /* cat1-1.gif */; };
+		A26A6E6E2491ED280085110E /* cat1-4.gif in Resources */ = {isa = PBXBuildFile; fileRef = A26A6E6A2491ED280085110E /* cat1-4.gif */; };
+		A26A6E6F2491ED280085110E /* cat1-5.gif in Resources */ = {isa = PBXBuildFile; fileRef = A26A6E6B2491ED280085110E /* cat1-5.gif */; };
+		A26A6E702491ED280085110E /* cat1-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = A26A6E6C2491ED280085110E /* cat1-2.gif */; };
+		A26A6E712491ED280085110E /* cat1-3.gif in Resources */ = {isa = PBXBuildFile; fileRef = A26A6E6D2491ED280085110E /* cat1-3.gif */; };
+		A26A6E75249325B40085110E /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26A6E74249325B40085110E /* SpeechService.swift */; };
 		A2C32C7C248721B00051BC1F /* CountDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2C32C7B248721B00051BC1F /* CountDown.mp3 */; };
 		A2DAC6BB2469045500AC3288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6BA2469045500AC3288 /* AppDelegate.swift */; };
 		A2DAC6BD2469045500AC3288 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DAC6BC2469045500AC3288 /* SceneDelegate.swift */; };
@@ -57,6 +65,14 @@
 		A2497C94247257C200BC67C8 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		A26A6E5C248E04E70085110E /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
 		A26A6E5E248F3A780085110E /* AccsessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccsessViewController.swift; sourceTree = "<group>"; };
+		A26A6E642491CF260085110E /* Cat1AccsesibilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat1AccsesibilityViewController.swift; sourceTree = "<group>"; };
+		A26A6E662491E6A30085110E /* Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
+		A26A6E682491E75F0085110E /* cat1-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "cat1-1.gif"; path = "../../cat1-1.gif"; sourceTree = "<group>"; };
+		A26A6E6A2491ED280085110E /* cat1-4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "cat1-4.gif"; path = "../../cat1-4.gif"; sourceTree = "<group>"; };
+		A26A6E6B2491ED280085110E /* cat1-5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "cat1-5.gif"; path = "../../cat1-5.gif"; sourceTree = "<group>"; };
+		A26A6E6C2491ED280085110E /* cat1-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "cat1-2.gif"; path = "../../cat1-2.gif"; sourceTree = "<group>"; };
+		A26A6E6D2491ED280085110E /* cat1-3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "cat1-3.gif"; path = "../../cat1-3.gif"; sourceTree = "<group>"; };
+		A26A6E74249325B40085110E /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
 		A2C32C7B248721B00051BC1F /* CountDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = CountDown.mp3; path = ../../../../Downloads/CountDown.mp3; sourceTree = "<group>"; };
 		A2DAC6B72469045500AC3288 /* Bed Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bed Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DAC6BA2469045500AC3288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +143,11 @@
 			isa = PBXGroup;
 			children = (
 				A23B8F972480B1430027621E /* Assets.xcassets */,
+				A26A6E6C2491ED280085110E /* cat1-2.gif */,
+				A26A6E6D2491ED280085110E /* cat1-3.gif */,
+				A26A6E6A2491ED280085110E /* cat1-4.gif */,
+				A26A6E6B2491ED280085110E /* cat1-5.gif */,
+				A26A6E682491E75F0085110E /* cat1-1.gif */,
 				A2C32C7B248721B00051BC1F /* CountDown.mp3 */,
 				A2DAC6ED2469068B00AC3288 /* Bed TimeDebug.entitlements */,
 				A2DAC6BA2469045500AC3288 /* AppDelegate.swift */,
@@ -145,6 +166,9 @@
 				A23B8F992485F0CE0027621E /* playSound.swift */,
 				A26A6E5C248E04E70085110E /* ReminderViewController.swift */,
 				A26A6E5E248F3A780085110E /* AccsessViewController.swift */,
+				A26A6E642491CF260085110E /* Cat1AccsesibilityViewController.swift */,
+				A26A6E662491E6A30085110E /* Gif.swift */,
+				A26A6E74249325B40085110E /* SpeechService.swift */,
 			);
 			path = "Bed Time";
 			sourceTree = "<group>";
@@ -280,8 +304,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2C32C7C248721B00051BC1F /* CountDown.mp3 in Resources */,
+				A26A6E6F2491ED280085110E /* cat1-5.gif in Resources */,
 				A2DAC6CA2469045800AC3288 /* LaunchScreen.storyboard in Resources */,
+				A26A6E712491ED280085110E /* cat1-3.gif in Resources */,
+				A26A6E6E2491ED280085110E /* cat1-4.gif in Resources */,
 				A23B8F982480B1440027621E /* Assets.xcassets in Resources */,
+				A26A6E692491E75F0085110E /* cat1-1.gif in Resources */,
+				A26A6E702491ED280085110E /* cat1-2.gif in Resources */,
 				A2DAC6C22469045500AC3288 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,10 +343,13 @@
 				A2497C932472572D00BC67C8 /* PageControlViewController.swift in Sources */,
 				A26A6E5F248F3A780085110E /* AccsessViewController.swift in Sources */,
 				A23B8F94247CCCB60027621E /* Cat3ViewController.swift in Sources */,
+				A26A6E75249325B40085110E /* SpeechService.swift in Sources */,
 				A2497C95247257C200BC67C8 /* OnBoardingViewController.swift in Sources */,
 				A20EDB0C2473A18900128993 /* TabBarViewController.swift in Sources */,
 				A26A6E5D248E04E70085110E /* ReminderViewController.swift in Sources */,
+				A26A6E672491E6A30085110E /* Gif.swift in Sources */,
 				A2DAC6C52469045500AC3288 /* Bed_Time.xcdatamodeld in Sources */,
+				A26A6E652491CF260085110E /* Cat1AccsesibilityViewController.swift in Sources */,
 				A23B8F9A2485F0CE0027621E /* playSound.swift in Sources */,
 				A2DAC6BD2469045500AC3288 /* SceneDelegate.swift in Sources */,
 			);

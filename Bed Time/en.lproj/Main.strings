@@ -1,0 +1,303 @@
+
+/* Class = "UILabel"; text = "Side Strech"; ObjectID = "03X-61-PPh"; */
+"03X-61-PPh.text" = "Side Strech";
+
+/* Class = "UILabel"; text = "Knee To Chest"; ObjectID = "0c2-ua-nca"; */
+"0c2-ua-nca.text" = "Knee To Chest";
+
+/* Class = "UILabel"; text = "Having regular wake up\nand sleeping time is\nimportant"; ObjectID = "0gg-KY-ytA"; */
+"0gg-KY-ytA.text" = "Having regular wake up\nand sleeping time is\nimportant";
+
+/* Class = "UIButton"; normalTitle = "Permisson"; ObjectID = "1Su-i9-SOW"; */
+"1Su-i9-SOW.normalTitle" = "Permisson";
+
+/* Class = "UILabel"; text = "Gender:"; ObjectID = "2NC-UR-Z2O"; */
+"2NC-UR-Z2O.text" = "Gender:";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "3u3-vm-KYk"; */
+"3u3-vm-KYk.normalTitle" = "Start";
+
+/* Class = "UILabel"; text = "Type Of Exercises"; ObjectID = "4Aw-Ny-VLF"; */
+"4Aw-Ny-VLF.text" = "Type Of Exercises";
+
+/* Class = "UILabel"; text = "9 Type"; ObjectID = "4Mr-78-icJ"; */
+"4Mr-78-icJ.text" = "9 Type";
+
+/* Class = "UIButton"; normalTitle = "GetData"; ObjectID = "7TV-kE-hez"; */
+"7TV-kE-hez.normalTitle" = "GetData";
+
+/* Class = "UILabel"; text = "Knee To Chest"; ObjectID = "8eQ-Zp-YK3"; */
+"8eQ-Zp-YK3.text" = "Knee To Chest";
+
+/* Class = "UILabel"; text = "Type Of Exercises"; ObjectID = "8xr-7b-U42"; */
+"8xr-7b-U42.text" = "Type Of Exercises";
+
+/* Class = "UILabel"; text = "Category 1"; ObjectID = "BDf-Lf-cjZ"; */
+"BDf-Lf-cjZ.text" = "Category 1";
+
+/* Class = "UILabel"; text = "Knee To Chest"; ObjectID = "CVf-6S-XVP"; */
+"CVf-6S-XVP.text" = "Knee To Chest";
+
+/* Class = "UILabel"; text = "Bear Hug"; ObjectID = "ChS-i7-83k"; */
+"ChS-i7-83k.text" = "Bear Hug";
+
+/* Class = "UILabel"; text = "Seated Side Bend"; ObjectID = "DKn-nF-KDL"; */
+"DKn-nF-KDL.text" = "Seated Side Bend";
+
+/* Class = "UILabel"; text = "5 Type"; ObjectID = "EKu-vF-9Ux"; */
+"EKu-vF-9Ux.text" = "5 Type";
+
+/* Class = "UILabel"; text = "Bend one leg and place both of your hands on your knee"; ObjectID = "ET3-Kh-36S"; */
+"ET3-Kh-36S.text" = "Bend one leg and place both of your hands on your knee";
+
+/* Class = "UILabel"; text = "BedTime will be your friendly reminder \nto help you set a more regular bed time \nroutine amidst your busy schedule."; ObjectID = "Eyx-Yg-br4"; */
+"Eyx-Yg-br4.text" = "BedTime will be your friendly reminder \nto help you set a more regular bed time \nroutine amidst your busy schedule.";
+
+/* Class = "UILabel"; text = "Age:"; ObjectID = "FOS-qT-4mL"; */
+"FOS-qT-4mL.text" = "Age:";
+
+/* Class = "UIButton"; normalTitle = "Reminders"; ObjectID = "FqS-es-A3c"; */
+"FqS-es-A3c.normalTitle" = "Reminders";
+
+/* Class = "UIButton"; normalTitle = "GetData"; ObjectID = "GCz-gd-9Ut"; */
+"GCz-gd-9Ut.normalTitle" = "GetData";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "Gnp-To-a6D"; */
+"Gnp-To-a6D.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "Happy Baby"; ObjectID = "H2M-oS-0Vf"; */
+"H2M-oS-0Vf.text" = "Happy Baby";
+
+/* Class = "UILabel"; text = "Do this stretch to release the tension that \nhas accumulated from the while \nincreasing your sleep at the same time!"; ObjectID = "HzO-rt-KW5"; */
+"HzO-rt-KW5.text" = "Do this stretch to release the tension that \nhas accumulated from the while \nincreasing your sleep at the same time!";
+
+/* Class = "UILabel"; text = "Category 1"; ObjectID = "I5n-eP-xql"; */
+"I5n-eP-xql.text" = "Category 1";
+
+/* Class = "UILabel"; text = "Up The Wall"; ObjectID = "IOm-gu-wJ2"; */
+"IOm-gu-wJ2.text" = "Up The Wall";
+
+/* Class = "UILabel"; text = "Category 2"; ObjectID = "IqG-OR-HTX"; */
+"IqG-OR-HTX.text" = "Category 2";
+
+/* Class = "UILabel"; text = "1 / 7 "; ObjectID = "JJe-Md-wIY"; */
+"JJe-Md-wIY.text" = "1 / 7 ";
+
+/* Class = "UILabel"; text = "Butterfly Pose"; ObjectID = "JjX-Rm-GeQ"; */
+"JjX-Rm-GeQ.text" = "Butterfly Pose";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "L9U-BC-3Pc"; */
+"L9U-BC-3Pc.normalTitle" = "Start";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "LNc-9L-tiG"; */
+"LNc-9L-tiG.text" = "10";
+
+/* Class = "UILabel"; text = "Sleeping Swan"; ObjectID = "M5G-ki-E7m"; */
+"M5G-ki-E7m.text" = "Sleeping Swan";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Mg2-16-Gee"; */
+"Mg2-16-Gee.text" = "Label";
+
+/* Class = "UILabel"; text = "Age:"; ObjectID = "MgN-e3-Imn"; */
+"MgN-e3-Imn.text" = "Age:";
+
+/* Class = "UINavigationItem"; title = "Choose Workout"; ObjectID = "N06-G1-lV7"; */
+"N06-G1-lV7.title" = "Choose Workout";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "N2C-4j-BVB"; */
+"N2C-4j-BVB.normalTitle" = "Start";
+
+/* Class = "UILabel"; text = "Category 3"; ObjectID = "Nfg-4g-ZUT"; */
+"Nfg-4g-ZUT.text" = "Category 3";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "OF7-VH-lXT"; */
+"OF7-VH-lXT.title" = "Settings";
+
+/* Class = "UILabel"; text = "Category 3"; ObjectID = "OjD-Pu-JG6"; */
+"OjD-Pu-JG6.text" = "Category 3";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "PJe-7w-wwv"; */
+"PJe-7w-wwv.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Stand tall and inhale as you open your "; ObjectID = "Pdl-cq-2s8"; */
+"Pdl-cq-2s8.text" = "Stand tall and inhale as you open your ";
+
+/* Class = "UITabBarItem"; title = "Work Out"; ObjectID = "QKL-sg-j5R"; */
+"QKL-sg-j5R.title" = "Work Out";
+
+/* Class = "UILabel"; text = "Standing Forward Fold"; ObjectID = "Qs6-Z4-fhk"; */
+"Qs6-Z4-fhk.text" = "Standing Forward Fold";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "RBW-ab-kJi"; */
+"RBW-ab-kJi.text" = "Label";
+
+/* Class = "UILabel"; text = "Before Bed Bridge"; ObjectID = "RI4-0x-OrK"; */
+"RI4-0x-OrK.text" = "Before Bed Bridge";
+
+/* Class = "UILabel"; text = "Our Workout Features Various\nexercises to aid and imrpove\nyour sleep quality"; ObjectID = "RU1-EG-6DK"; */
+"RU1-EG-6DK.text" = "Our Workout Features Various\nexercises to aid and imrpove\nyour sleep quality";
+
+/* Class = "UILabel"; text = "Breathe deeply as you use your hands to draw your shoulders forward."; ObjectID = "S9E-iQ-bj7"; */
+"S9E-iQ-bj7.text" = "Breathe deeply as you use your hands to draw your shoulders forward.";
+
+/* Class = "UINavigationItem"; title = "About"; ObjectID = "SA0-BT-4Jy"; */
+"SA0-BT-4Jy.title" = "About";
+
+/* Class = "UILabel"; text = "Wake Up Mood"; ObjectID = "SdB-H1-azD"; */
+"SdB-H1-azD.text" = "Wake Up Mood";
+
+/* Class = "UILabel"; text = "5 Minutes"; ObjectID = "SgL-g3-CMq"; */
+"SgL-g3-CMq.text" = "5 Minutes";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "TX1-cw-KXS"; */
+"TX1-cw-KXS.text" = "Label";
+
+/* Class = "UILabel"; text = "Gender:"; ObjectID = "URX-49-fYO"; */
+"URX-49-fYO.text" = "Gender:";
+
+/* Class = "UIButton"; normalTitle = "Finish"; ObjectID = "UZ3-9D-3JF"; */
+"UZ3-9D-3JF.normalTitle" = "Finish";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VRs-eE-pqq"; */
+"VRs-eE-pqq.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Permisson"; ObjectID = "W31-vy-coZ"; */
+"W31-vy-coZ.normalTitle" = "Permisson";
+
+/* Class = "UILabel"; text = "Swipe Left to learn about our features!"; ObjectID = "Wu8-B6-dRg"; */
+"Wu8-B6-dRg.text" = "Swipe Left to learn about our features!";
+
+/* Class = "UILabel"; text = "To release, inhale to open your arms back open wide."; ObjectID = "Wzc-LM-HKp"; */
+"Wzc-LM-HKp.text" = "To release, inhale to open your arms back open wide.";
+
+/* Class = "UIButton"; normalTitle = "About"; ObjectID = "X0t-Ut-her"; */
+"X0t-Ut-her.normalTitle" = "About";
+
+/* Class = "UILabel"; text = "1 / 7 "; ObjectID = "ZXj-DN-DPR"; */
+"ZXj-DN-DPR.text" = "1 / 7 ";
+
+/* Class = "UILabel"; text = "Type Of Exercises"; ObjectID = "ZyF-AL-3cG"; */
+"ZyF-AL-3cG.text" = "Type Of Exercises";
+
+/* Class = "UILabel"; text = "1 / 7 "; ObjectID = "abu-se-kUC"; */
+"abu-se-kUC.text" = "1 / 7 ";
+
+/* Class = "UILabel"; text = "Exhale when cross arms, place your right hand on the left and left on the right to hug yourself."; ObjectID = "aqm-9C-FeZ"; */
+"aqm-9C-FeZ.text" = "Exhale when cross arms, place your right hand on the left and left on the right to hug yourself.";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "bLz-V0-gff"; */
+"bLz-V0-gff.text" = "10";
+
+/* Class = "UILabel"; text = "Welcome to \nBedTime!"; ObjectID = "dEh-NH-Etg"; */
+"dEh-NH-Etg.text" = "Welcome to \nBedTime!";
+
+/* Class = "UILabel"; text = "Sleeping Swan"; ObjectID = "eAP-6b-HfM"; */
+"eAP-6b-HfM.text" = "Sleeping Swan";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "eyc-N2-1Qk"; */
+"eyc-N2-1Qk.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Seated forward bend "; ObjectID = "fqD-7L-kUF"; */
+"fqD-7L-kUF.text" = "Seated forward bend ";
+
+/* Class = "UILabel"; text = "7 Type"; ObjectID = "hLt-Od-czT"; */
+"hLt-Od-czT.text" = "7 Type";
+
+/* Class = "UILabel"; text = "Try this 7 Minutes Exercise \nto help your body relax and\nstay in a deeper sleep longer"; ObjectID = "hbq-2I-RpU"; */
+"hbq-2I-RpU.text" = "Try this 7 Minutes Exercise \nto help your body relax and\nstay in a deeper sleep longer";
+
+/* Class = "UILabel"; text = "Beti is here to help you have better and more regular \nsleeping schedule."; ObjectID = "hpJ-6s-TNp"; */
+"hpJ-6s-TNp.text" = "Beti is here to help you have better and more regular \nsleeping schedule.";
+
+/* Class = "UILabel"; text = "Stand tall and inhale as you open your "; ObjectID = "iPf-HT-H0I"; */
+"iPf-HT-H0I.text" = "Stand tall and inhale as you open your ";
+
+/* Class = "UILabel"; text = "Breathe deeply as you use your hands to draw your shoulders forward."; ObjectID = "iTi-t7-rtx"; */
+"iTi-t7-rtx.text" = "Breathe deeply as you use your hands to draw your shoulders forward.";
+
+/* Class = "UILabel"; text = "Trying Imrpove\nYour sleep ?"; ObjectID = "kCh-Gi-hiL"; */
+"kCh-Gi-hiL.text" = "Trying Imrpove\nYour sleep ?";
+
+/* Class = "UILabel"; text = "9 Minutes"; ObjectID = "kfe-y4-Os8"; */
+"kfe-y4-Os8.text" = "9 Minutes";
+
+/* Class = "UILabel"; text = "Legs up the wall pose"; ObjectID = "lAX-qU-MKv"; */
+"lAX-qU-MKv.text" = "Legs up the wall pose";
+
+/* Class = "UILabel"; text = "Neck stretches"; ObjectID = "lHJ-iG-TgE"; */
+"lHJ-iG-TgE.text" = "Neck stretches";
+
+/* Class = "UILabel"; text = "Spinal Twist"; ObjectID = "mBf-Ok-wuJ"; */
+"mBf-Ok-wuJ.text" = "Spinal Twist";
+
+/* Class = "UILabel"; text = "Lungle"; ObjectID = "nwf-nk-qbC"; */
+"nwf-nk-qbC.text" = "Lungle";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "o4b-UJ-UfP"; */
+"o4b-UJ-UfP.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Category 2"; ObjectID = "oeu-il-GHH"; */
+"oeu-il-GHH.text" = "Category 2";
+
+/* Class = "UILabel"; text = "Seated Forward Fold"; ObjectID = "pZp-ML-hyi"; */
+"pZp-ML-hyi.text" = "Seated Forward Fold";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "pcn-VH-Wib"; */
+"pcn-VH-Wib.title" = "Settings";
+
+/* Class = "UILabel"; text = "Exhale when cross arms, place your right hand on the left and left on the right to hug yourself."; ObjectID = "pej-QN-LJV"; */
+"pej-QN-LJV.text" = "Exhale when cross arms, place your right hand on the left and left on the right to hug yourself.";
+
+/* Class = "UILabel"; text = "Kneeling lat stretch "; ObjectID = "qOK-j9-wia"; */
+"qOK-j9-wia.text" = "Kneeling lat stretch ";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "qg7-ha-iu6"; */
+"qg7-ha-iu6.text" = "10";
+
+/* Class = "UIButton"; normalTitle = "Finish"; ObjectID = "qk6-SG-X71"; */
+"qk6-SG-X71.normalTitle" = "Finish";
+
+/* Class = "UILabel"; text = "To release, inhale to open your arms back open wide."; ObjectID = "sCz-CW-bF6"; */
+"sCz-CW-bF6.text" = "To release, inhale to open your arms back open wide.";
+
+/* Class = "UILabel"; text = "Lizard Pose"; ObjectID = "spy-b3-fP8"; */
+"spy-b3-fP8.text" = "Lizard Pose";
+
+/* Class = "UILabel"; text = "Figure Four"; ObjectID = "swZ-hg-0t0"; */
+"swZ-hg-0t0.text" = "Figure Four";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "tJK-YV-dSv"; */
+"tJK-YV-dSv.normalTitle" = "Start";
+
+/* Class = "UILabel"; text = "Hold for 30 second, then repeat on the other side for 30 second."; ObjectID = "uVa-9o-Z0B"; */
+"uVa-9o-Z0B.text" = "Hold for 30 second, then repeat on the other side for 30 second.";
+
+/* Class = "UILabel"; text = "7 Minutes"; ObjectID = "ufW-Qy-whI"; */
+"ufW-Qy-whI.text" = "7 Minutes";
+
+/* Class = "UILabel"; text = "Low lunge "; ObjectID = "ujW-ns-OlQ"; */
+"ujW-ns-OlQ.text" = "Low lunge ";
+
+/* Class = "UILabel"; text = "Gently bring your knee to your chest."; ObjectID = "wNy-AT-GZU"; */
+"wNy-AT-GZU.text" = "Gently bring your knee to your chest.";
+
+/* Class = "UIButton"; normalTitle = "Finish"; ObjectID = "wRl-el-BuW"; */
+"wRl-el-BuW.normalTitle" = "Finish";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "x9S-i3-gxc"; */
+"x9S-i3-gxc.normalTitle" = "Start";
+
+/* Class = "UILabel"; text = "Breathe deeply as you use your hands to draw your shoulders forward."; ObjectID = "xAv-Dp-9jB"; */
+"xAv-Dp-9jB.text" = "Breathe deeply as you use your hands to draw your shoulders forward.";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "xDd-hn-Zwg"; */
+"xDd-hn-Zwg.normalTitle" = "Start";
+
+/* Class = "UILabel"; text = "Child’s pose"; ObjectID = "xac-Dd-Stb"; */
+"xac-Dd-Stb.text" = "Child’s pose";
+
+/* Class = "UILabel"; text = "Finding yourself wide awake and hard\nto sleep? Enter this 10 Minutes Yoga \nStretches in your before bed routine."; ObjectID = "y9y-NT-mqj"; */
+"y9y-NT-mqj.text" = "Finding yourself wide awake and hard\nto sleep? Enter this 10 Minutes Yoga \nStretches in your before bed routine.";
+
+/* Class = "UIButton"; normalTitle = "Finish"; ObjectID = "zLG-yk-kla"; */
+"zLG-yk-kla.normalTitle" = "Finish";

@@ -42,11 +42,11 @@ class ReminderViewController: UIViewController {
         
         let content  = UNMutableNotificationContent()
                content.title = "Haii"
-               content.sound = .default
+        content.sound = UNNotificationSound(named: UNNotificationSoundName(rawValue: "Alarm.mp3"))
                content.body = "My Lonngggg body My Lonngggg body My Lonngggg body My Lonngggg body"
         
       let triger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
-        
+            
         let uuidString = UUID().uuidString
                         let request =  UNNotificationRequest(identifier: uuidString, content: content, trigger: triger)
                         
