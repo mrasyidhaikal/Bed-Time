@@ -20,7 +20,7 @@ class Cat1AccsesibilityViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
-        LblCat1.accessibilityLabel = "Category 1 Is Selected ,Do this stretch to release the tension that has accumulated from the while increasing your sleep at the same time! , in this screen there are 5 exercises namely side stretch, spinal twist, lungle, knee to chest and butterfly pose. You can scroll down to press the start button or say start "
+        LblCat1.accessibilityLabel = "Category 1 Is Selected ,this is for Muscle Stretches,Release built up tension from the day while also boosting your sleep at the same time , there are 5 types of exercises namely side strech, spinal twist, lunge, knee to chest, and butterfly pose, for start the exercise scroll down , then press the start button , or you can use voice control , by saying tab start"
         Caption.accessibilityLabel = ""
         Type1.accessibilityLabel = "Side Strech"
     }

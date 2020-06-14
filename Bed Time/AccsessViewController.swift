@@ -19,13 +19,15 @@ class AccsessViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
-     speeceService.say( "welcome to the workout feature, here are 3 Excersises categories , You can choose one of the categories, if your voice control is on ,say tab category 1 or 2 or 3".localized)
+    
 
-        Cat1.accessibilityLabel = "Category 1 , 5 Minutes Excersises and 5 type Excersises ,tab For Detail"
-        Cat2.accessibilityLabel = "Category 2 , 7 Minutes Excersises and 7 type Excersises ,tab For Detail"
-        Cat3.accessibilityLabel = "Category 3 , 9 Minutes Excersises and 9 type Excersises ,tab For Detail"
+        Cat1.accessibilityLabel = "Category 1 ,for Muscle Stretches ,  5 Minutes exercise and 5 type exercises ,tab For Detail"
+        Cat2.accessibilityLabel = "Category 2 ,for Before Bed Exercises ,  7 Minutes Exercises and 7 type Exercises ,tab For Detail"
+        Cat3.accessibilityLabel = "Category 3 ,For Calming Yoga Moves ,9 Minutes Exercises and 9 type Exercises ,tab For Detail"
     }
-
+    override func viewDidAppear(_ animated: Bool) {
+         speeceService.say( "welcome to the workout feature, here are 3 Exercises categories , You can choose one of the categories, if your voice control is on ,say tab category 1 or 2 or 3".localized)
+    }
    
       
  

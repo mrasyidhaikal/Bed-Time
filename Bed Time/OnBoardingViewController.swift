@@ -12,15 +12,19 @@ import HealthKit
 class OnBoardingViewController: UIViewController {
      let healthStore = HKHealthStore()
     
+    @IBOutlet weak var Welcome: UILabel!
     @IBOutlet weak var VwAge: UIView!
        @IBOutlet weak var lblGender: UILabel!
        @IBOutlet weak var lblAge: UILabel!
       @IBOutlet weak var btnPermission: UIButton!
     @IBOutlet weak var btnFinish: UIButton!
        @IBOutlet weak var btnGetData: UIButton!
+   let speechService = SpeechService()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        speechService.say("Swipe left to learn about our features")
+        
         // Do any additional setup after loading the view.
     }
     

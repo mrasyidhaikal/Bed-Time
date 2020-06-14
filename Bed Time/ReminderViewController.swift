@@ -16,7 +16,6 @@ class LocalNotificationManager
 }
 class ReminderViewController: UIViewController {
 
-    @IBOutlet weak var lbl: UILabel!
     @IBOutlet weak var TimeControl: UIDatePicker!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,9 +40,9 @@ class ReminderViewController: UIViewController {
         dateComponents.minute = comp.minute
         
         let content  = UNMutableNotificationContent()
-               content.title = "Haii"
+               content.title = "Feeling stiff after a long day at work? "
         content.sound = UNNotificationSound(named: UNNotificationSoundName(rawValue: "Alarm.mp3"))
-               content.body = "My Lonngggg body My Lonngggg body My Lonngggg body My Lonngggg body"
+               content.body = " Don’t forget to do your stretches before you sleep! "
         
       let triger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
             
