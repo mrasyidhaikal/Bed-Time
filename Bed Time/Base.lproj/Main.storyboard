@@ -385,16 +385,9 @@ your sleep quality</string>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kotak-cat" translatesAutoresizingMaskIntoConstraints="NO" id="2jJ-lz-z2C">
-                                        <rect key="frame" x="192" y="18" width="168" height="62"/>
+                                        <rect key="frame" x="189" y="18" width="207" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Category 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDf-Lf-cjZ">
-                                        <rect key="frame" x="209" y="37" width="83" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5 Minutes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SgL-g3-CMq">
                                         <rect key="frame" x="202" y="104" width="76" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -425,9 +418,9 @@ your sleep quality</string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Muscle Stretches" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0mh-hS-Huk">
-                                        <rect key="frame" x="202" y="80" width="133" height="21"/>
+                                        <rect key="frame" x="209" y="38" width="165" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -533,18 +526,18 @@ your sleep quality</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rj-AB-RoF">
+                                        <rect key="frame" x="4" y="4" width="414" height="156"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <color key="titleColor" red="0.8980392157" green="0.90980392160000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="pNb-Tv-IJp" kind="show" id="6hX-BV-QA3"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rj-AB-RoF">
-                                <rect key="frame" x="0.0" y="669" width="414" height="156"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.8980392157" green="0.90980392160000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="pNb-Tv-IJp" kind="show" id="6hX-BV-QA3"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -1441,10 +1434,10 @@ Stretches in your before bed routine.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bg-Gradient" translatesAutoresizingMaskIntoConstraints="NO" id="Doi-xx-aOW">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="-44" width="414" height="989"/>
                             </imageView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJe-7w-wwv">
-                                <rect key="frame" x="110" y="731" width="195" height="46"/>
+                                <rect key="frame" x="110" y="780" width="195" height="46"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <state key="normal" title="Next" backgroundImage="Rectangle">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1456,7 +1449,7 @@ Stretches in your before bed routine.</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xDd-hn-Zwg">
-                                <rect key="frame" x="110" y="731" width="195" height="46"/>
+                                <rect key="frame" x="110" y="780" width="195" height="46"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <state key="normal" title="Start" backgroundImage="Rectangle">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1549,7 +1542,7 @@ Stretches in your before bed routine.</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wRl-el-BuW">
-                                <rect key="frame" x="110" y="731" width="195" height="46"/>
+                                <rect key="frame" x="110" y="780" width="195" height="46"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <state key="normal" title="Finish" backgroundImage="Rectangle">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1620,7 +1613,7 @@ Stretches in your before bed routine.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mZb-if-qNN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3531.884057971015" y="2728.7946428571427"/>
+            <point key="canvasLocation" x="3530" y="2816"/>
         </scene>
         <!--Cat1 Accsesibility View Controller-->
         <scene sceneID="5rM-d5-4h1">
@@ -1783,7 +1776,7 @@ at the same time</string>
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="QEQ-2z-4FR" kind="show" id="DM3-aO-LHA"/>
+                                                    <segue destination="QEQ-2z-4FR" kind="presentation" modalPresentationStyle="fullScreen" id="DM3-aO-LHA"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -1834,7 +1827,7 @@ at the same time</string>
         <!--Settings-->
         <scene sceneID="rio-7e-w8S">
             <objects>
-                <viewController id="OWB-a7-YH3" sceneMemberID="viewController">
+                <viewController id="OWB-a7-YH3" customClass="SettingViewController" customModule="Bed_Time" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="whe-xB-4Uf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1843,11 +1836,11 @@ at the same time</string>
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Line" translatesAutoresizingMaskIntoConstraints="NO" id="Ppt-Jz-HLM">
-                                <rect key="frame" x="-14" y="350" width="442" height="13"/>
+                                <rect key="frame" x="-14" y="405" width="442" height="13"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X0t-Ut-her">
-                                <rect key="frame" x="20" y="372" width="374" height="36"/>
+                                <rect key="frame" x="19" y="415" width="394" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="About">
@@ -1858,11 +1851,11 @@ at the same time</string>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Line" translatesAutoresizingMaskIntoConstraints="NO" id="JEH-2b-iae">
-                                <rect key="frame" x="-14" y="409" width="442" height="13"/>
+                                <rect key="frame" x="-14" y="464" width="442" height="13"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FqS-es-A3c">
-                                <rect key="frame" x="20" y="316" width="374" height="36"/>
+                                <rect key="frame" x="19" y="364" width="394" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Reminders">
@@ -1978,7 +1971,7 @@ sleeping schedule.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uZp-al-6gE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6240.579710144928" y="1660.7142857142856"/>
+            <point key="canvasLocation" x="6290" y="1669"/>
         </scene>
         <!--Tab Bar View Controller-->
         <scene sceneID="p1g-jQ-1TV">

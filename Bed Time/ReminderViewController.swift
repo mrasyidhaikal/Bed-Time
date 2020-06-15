@@ -14,6 +14,7 @@ class LocalNotificationManager
     var notifications = [Notification]()
 
 }
+let speechservice = SpeechService()
 class ReminderViewController: UIViewController {
 
     @IBOutlet weak var TimeControl: UIDatePicker!
@@ -27,6 +28,7 @@ class ReminderViewController: UIViewController {
       }
     @IBAction func Save(_ sender: Any) {
         self.DelNotif()
+        speechservice.say2("The reminder has been saved")
          let center = UNUserNotificationCenter.current()
         center.requestAuthorization(options: [.alert,.sound]){ (granted,error) in
                            

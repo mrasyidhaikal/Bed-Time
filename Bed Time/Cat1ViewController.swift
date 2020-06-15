@@ -30,8 +30,10 @@ class Cat1ViewController: UIViewController {
             super.viewDidLoad()
             // Do any additional setup after loading the view.
             Tutor.accessibilityLabel = ""
-        
-        speechService.say2("This Exercises is called Side Strech, how to do it, first Bend one leg and place both of your hands on your knee, secondly Bring your knee to your chest, third Breathe deeply as you use your hands to draw your shoulders forward, then Hold for 30 second, then repeat on the other side for 30 seconds. if you already understand say tab start , or press the button below.  ")
+        label.accessibilityLabel = ""
+        dataLabel.accessibilityLabel = ""
+            Judul.accessibilityLabel = ""
+        speechService.say2("This Exercises is called Side Strech, how to do it, first Bend one leg and place both of your hands on your knee, secondly Bring your knee to your chest, third Breathe deeply as you use your hands to draw your shoulders forward, then Hold for 30 second, then repeat on the other side for 30 seconds , if you already understand say tab start , or press the button below.  ")
                        Tutor2.accessibilityLabel = ""
                        Tutor3.accessibilityLabel = ""
                        Tutor4.accessibilityLabel = ""
@@ -44,7 +46,7 @@ class Cat1ViewController: UIViewController {
         @IBAction func startCount(_ sender: UIButton) {
             StartBtn.isHidden = true
             // when start button click voice over
-            speechService.say("CountDown Start From 60 second")
+            speechService.say2("CountDown Start From 60 second")
             timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(countDownMethod), userInfo: nil, repeats: true)
         }
         
@@ -66,6 +68,7 @@ class Cat1ViewController: UIViewController {
             
             }
             if imageInt == 2 {
+                Judul.accessibilityLabel = ""
                 Tutor.accessibilityLabel = ""
                            Tutor2.accessibilityLabel = ""
                            Tutor3.accessibilityLabel = ""
@@ -81,6 +84,7 @@ class Cat1ViewController: UIViewController {
                 Tutor4.text = "Repeat on the other side."
             }
             if imageInt == 3 {
+                Judul.accessibilityLabel = ""
                    speechService.say2( "This Exercises is called a Lunge, how to do it, first Extend your left arm above your head while seated, Keep your left arm above your ear then place your right hand on the floor and lean to the right, holding the left arm, third Hold for 30 second, then repeat on the other side for 30 second. if you already understand say the start tab or press the button below".localized)
                 Tutor.accessibilityLabel = ""
                            Tutor2.accessibilityLabel = ""
@@ -95,6 +99,7 @@ class Cat1ViewController: UIViewController {
                 Tutor4.text = ""
             }
             if imageInt == 4 {
+                Judul.accessibilityLabel = ""
                  speechService.say2( "This Exercises is called Knee To Chest, how to do it, first From a standing or kneeling position, place one foot in front of the other and bend your knees to the lunge, second Allow your opposite knee to support some of your weight, third Concentrate on keeping your spine straight and chest open, then repeat on the other side. if you already understand say the start tab or press the button below".localized)
                 Tutor.accessibilityLabel = ""
                            Tutor2.accessibilityLabel = ""
@@ -108,6 +113,7 @@ class Cat1ViewController: UIViewController {
                 Tutor4.text = ""
             }
             if imageInt == 5 {
+                Judul.accessibilityLabel = ""
                 speechService.say2("This Exercises is called Butterfly Pose, how to do it, first Sitting with your legs straight in front of you, bring the soles of your feet together, second Keep your spine as straight as you bring your feet towards your body, third Breathe deeply, focusing on lengthening your spine and opening your chest, then Rest in this pose to deepen the stretch. if you already understand say the start tab or press the button below")
                 Tutor.accessibilityLabel = ""
                            Tutor2.accessibilityLabel = ""

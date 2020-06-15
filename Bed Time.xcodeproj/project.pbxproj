@@ -15,6 +15,7 @@
 		A23B8F9A2485F0CE0027621E /* playSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23B8F992485F0CE0027621E /* playSound.swift */; };
 		A2497C932472572D00BC67C8 /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2497C922472572D00BC67C8 /* PageControlViewController.swift */; };
 		A2497C95247257C200BC67C8 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2497C94247257C200BC67C8 /* OnBoardingViewController.swift */; };
+		A254CFFE249702A300AB5D0D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A254CFFD249702A300AB5D0D /* SettingViewController.swift */; };
 		A26A6E5D248E04E70085110E /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26A6E5C248E04E70085110E /* ReminderViewController.swift */; };
 		A26A6E5F248F3A780085110E /* AccsessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26A6E5E248F3A780085110E /* AccsessViewController.swift */; };
 		A26A6E652491CF260085110E /* Cat1AccsesibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26A6E642491CF260085110E /* Cat1AccsesibilityViewController.swift */; };
@@ -63,6 +64,7 @@
 		A23B8F992485F0CE0027621E /* playSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playSound.swift; sourceTree = "<group>"; };
 		A2497C922472572D00BC67C8 /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
 		A2497C94247257C200BC67C8 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		A254CFFD249702A300AB5D0D /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		A26A6E5C248E04E70085110E /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
 		A26A6E5E248F3A780085110E /* AccsessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccsessViewController.swift; sourceTree = "<group>"; };
 		A26A6E642491CF260085110E /* Cat1AccsesibilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat1AccsesibilityViewController.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				A26A6E642491CF260085110E /* Cat1AccsesibilityViewController.swift */,
 				A26A6E662491E6A30085110E /* Gif.swift */,
 				A26A6E74249325B40085110E /* SpeechService.swift */,
+				A254CFFD249702A300AB5D0D /* SettingViewController.swift */,
 			);
 			path = "Bed Time";
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				A2DAC6BF2469045500AC3288 /* ViewController.swift in Sources */,
 				A2DAC6BB2469045500AC3288 /* AppDelegate.swift in Sources */,
 				A2497C932472572D00BC67C8 /* PageControlViewController.swift in Sources */,
+				A254CFFE249702A300AB5D0D /* SettingViewController.swift in Sources */,
 				A26A6E5F248F3A780085110E /* AccsessViewController.swift in Sources */,
 				A23B8F94247CCCB60027621E /* Cat3ViewController.swift in Sources */,
 				A26A6E75249325B40085110E /* SpeechService.swift in Sources */,
